@@ -20,7 +20,7 @@ public class NewTest {
   @Test
   public void a() throws InterruptedException {
 	  System.out.println("bfvhs111111111111111");
-	  System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 	//   WebDriverManager.chromedriver().setup();
 	 
 	 
