@@ -20,7 +20,7 @@ public class NewTest {
   @Test
   public void a() throws InterruptedException {
 	  System.out.println("bfvhs111111111111111");
-	  System.setProperty("webdriver.chrome.driver", "./driver/chromedriver1.exe");
+	  System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 	//   WebDriverManager.chromedriver().setup();
 	 
 	 
@@ -30,13 +30,14 @@ public class NewTest {
 	  ChromeDriver dr = new ChromeDriver(co);
 	  setdriver(dr);Thread.sleep(5000);
 	  getdriver().manage().window().maximize(); 
-	  getdriver().get("C:\\Users\\ciadmin\\Downloads\\index.html.html");
+	  getdriver().get("https://www.google.com");
+	   System.out.println("bjdbfjewb---/**/*/545554554");
   }
   @Test
   public void b() throws InterruptedException {
-	  getdriver().findElement(By.xpath("//p[text()='CONTACT']")).click();Thread.sleep(3000);
-	  getdriver().findElement(By.xpath("//input[@placeholder='Name']")).sendKeys("vfgdchsb");
-	  
+	 System.out.println("bfvhs111111111111111");
+	  getdriver().findElement(By.xpath("//textarea[@name='q']")).click();Thread.sleep(3000);
+	  getdriver().findElement(By.xpath("//textarea[@name='q']")).sendKeys("vfgdchsb");
 	
 }
 }
