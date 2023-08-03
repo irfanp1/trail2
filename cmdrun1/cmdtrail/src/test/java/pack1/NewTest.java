@@ -25,8 +25,9 @@ public class NewTest {
 	 
 	 
 	  ChromeOptions co=new ChromeOptions();
-	  co.addArguments("--remote-allow-origins=*");
-	  co.addArguments("--incognito");
+	  // co.addArguments("--remote-allow-origins=*");
+	  // co.addArguments("--incognito");
+	  co.addArguments("--headless");
 	  ChromeDriver dr = new ChromeDriver(co);
 	  setdriver(dr);Thread.sleep(5000);
 	  getdriver().manage().window().maximize(); 
